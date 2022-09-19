@@ -12,13 +12,8 @@ app.use(session({
   secret: process.env.SESSION_SECRET,
   keys: {
     private : '-----BEGIN EC PRIVATE KEY-----\n' +
-      'MHQCAQEEICctefyrIcmIz9pG6xvGLzZNDP8AxxPQaq3FY5Wdbr0poAcGBSuBBAAK\n' +
-      'oUQDQgAEwbjiSSmtstCfXy5GczTx9hiD1+LbCfwcfU1Hzj4oXl8hLCyzcm2cbPYs\n' +
-      'o0rBNhscHXvMYirMkqQLXv9sf7DhwQ==\n' +
-      '-----END EC PRIVATE KEY-----',
+     '-----END EC PRIVATE KEY-----',
     public : '-----BEGIN PUBLIC KEY-----\n' +
-      'MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEwbjiSSmtstCfXy5GczTx9hiD1+LbCfwc\n' +
-      'fU1Hzj4oXl8hLCyzcm2cbPYso0rBNhscHXvMYirMkqQLXv9sf7DhwQ==\n' +
       '-----END PUBLIC KEY-----'
   },
   resave:false,
